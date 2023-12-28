@@ -8,9 +8,12 @@ function App() {
     
   }
   function subtractNum() {
+    if (sum ===0) {
+     console.log("Number in not back");
+     return 
+    }
     setNum(sum - 1);
-    
-}
+  }
 
 return (
   <div>
