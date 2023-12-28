@@ -11,10 +11,7 @@ function App() {
     setNum(sum - 1);
     
 }
-function multiplyNum() {
-  setNum(sum * 1);
-  
-}
+
 return (
   <div>
     <h1>Value of Number</h1>
